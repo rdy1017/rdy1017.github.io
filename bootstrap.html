@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+    <title>게시판</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <div id="header">
+            <a href="index.html"><img src="images/logo.png" width="194" height="43"></a>
+            <div id="join">
+                <ul>
+                    <li><a href="javascript:;" onclick="window.open('Login.html','name','resizable=no width=465 height=240');return false">로그인</a></li>
+                    <li><a href="javascript:;" onclick="window.open('Register.html','name','resizable=no width=465 height=330');return false">회원가입</a></li>
+                    <li><a href="javascript:;" onclick="window.open('Find.html','name','resizable=no width=465 height=460');return false">아이디/비밀번호 찾기</a></li>
+                </ul>
+            </div>
+            <div class="iconicmenu">
+                <input type="checkbox" id="togglebox" />
+            <ul>
+                <li><a href="Consult.html">상담컨설팅</a></li>
+                <li><a href="Example.html">고객 사례</a></li>
+                <li><a href="introduction.html">자사 소개</a></li>
+                <li><a href="bootstrap.html">공지사항</a></li>
+                <li><a href="QnA.html">QnA</a></li>
+            </ul>
+                <label class="toggler" for="togglebox">Menu</label>
+            </div>
+        </div>
+<div class = "container">
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>날짜</th>
+            <th>조회수</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>공지사항 게시판 입니다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+            <td>12323</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>공지사항 외의 다른 용도로 사용될 경우 무통보 삭제 될 수 있습니다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+            <td>14343</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>건강한 글쓰기 문화를 만들어 나갑시다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+            <td>14343</td>
+        </tr>
+    </tbody>
+</table>
+<hr/>
+<div class="text-center">
+        <ul class = "pagination">
+            <li><a href = "#">1</a></li>
+        </ul>
+    </div>
+</div>
+    <div id="footer">
+            <img src="images/youtubeicon.png" width="100" height="80">
+            <img src="images/facebookicon.png" width="100" height="80">
+            <img src="images/navericon.png" width="100" height="80"><br>
+            
+            <a href="http://www.youtube.com">YouTube</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.facebook.com">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.naver.com">Naver Blog</a>
+            <p>
+                상담가능시간<br>
+                am 10:00<br>
+                ~<br>
+                pm 17:30
+            </p>
+    </div>
+</body>
+</html>

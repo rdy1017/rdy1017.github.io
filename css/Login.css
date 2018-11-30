@@ -8,16 +8,16 @@ p, h1, form, button{border:0; margin:0; padding:0;}
     padding:14px;
 }
 
-#stylized{     border:solid 2px #b7ddf2;     background:#ebf4fb; } #stylized
+#stylized{     border:solid 2px black;     background:grey; } #stylized
 h1 {     font-size:16px;     font-weight:bold;     margin-bottom:8px;
 font-family:nanumgothic,dotum;
 
 }
 #stylized p{
     font-size:11px;
-    color:#666666;
+    color:black;
     margin-bottom:20px;
-    border-bottom:solid 1px #b7ddf2;
+    border-bottom:solid 1px black;
     padding-bottom:10px;
     font-family:dotum;
 }
@@ -30,7 +30,7 @@ font-family:nanumgothic,dotum;
     font-family:tahoma;
 }
 #stylized .small{
-    color:#666666;
+    color:black;
     display:block;
     font-size:11px;
     font-weight:normal;
@@ -43,7 +43,7 @@ font-family:nanumgothic,dotum;
 float:left;
 font-size:12px;
 padding:4px 2px;
-border:solid 1px #aacfe4;
+border:solid 1px black;
 width:200px;
 margin:2px 0 20px 10px;
 }

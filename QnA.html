@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QnA</title>
+	<link rel="stylesheet" type="text/css" href="css/QnA.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".flip").click(function() {
+			$(".panel").slideToggle("slow");
+		});
+	});
+</script>
+
+<style type="text/css">
+div.flip,p.panel {
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+	font-size:20px;
+	background: #F2F2F2;
+	border: solid 1px #000000;
+}
+ 
+div.panel {
+	width: 100%;
+	height: 100px;
+	text-align: left;
+	font-size:15px;
+	display: none;
+	background: #FFFFFF;
+	border: solid 1px #000000;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+
+		<a href="index.html"><img src="images/logo.png" width="194" height="43"></a>
+		<!--<h1>DY company</h2>-->
+			<div id="join">
+				<ul>
+					<li><a href="javascript:;" onclick="window.open('Login.html','name','resizable=no width=465 height=240');return false">로그인</a></li>
+					<li><a href="javascript:;" onclick="window.open('Register.html','name','resizable=no width=465 height=330');return false">회원가입</a></li>
+					<li><a href="javascript:;" onclick="window.open('Find.html','name','resizable=no width=465 height=460');return false">아이디/비밀번호 찾기</a></li>
+				</ul>
+			</div>
+			<div class="iconicmenu">
+				<input type="checkbox" id="togglebox" />
+			<ul>
+				<li><a href="Consult.html">상담컨설팅</a></li>
+				<li><a href="Example.html">고객 사례</a></li>
+				<li><a href="Introduction.html">자사 소개</a></li>
+				<li><a href="bootstrap.html">공지사항</a></li>
+				<li><a href="QnA.html">QnA</a></li>
+			</ul>
+			<label class="toggler" for="togglebox">Menu</label>
+		</div>
+	</div>
+
+
+<div class="flip"><p>Q&A에 대한 설명입니다.</p>
+		<p>더 자세한 내용을 보려면 클릭하세요.</p></div>
+<div class="panel"><p>가장 많이 궁금해 하는 질문들의 간단한 답변이 준비되어 있습니다.</p>
+<p>Q&A로도 해결되지 않는 질문이 있다면 고객센터로 전화주시면 친절히 답해드리겠습니다.</p></div>
+
+<h4>ㆍ가장 많이 물어보는 Q&A들 입니다.</h4><hr>
+<details>
+	<summary>Q) 비용은 얼마나 드나요?</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 정확한 금액은 상담 후에 안내해 드립니다.</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 1</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 1</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 2</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 2</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 3</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 3</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 4</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 4</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 5</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 5</p>
+</details>
+
+
+<div id="footer">
+			<img src="images/youtubeicon.png" width="100" height="80">
+			<img src="images/facebookicon.png" width="100" height="80">
+			<img src="images/navericon.png" width="100" height="80"><br>
+			
+			<a href="http://www.youtube.com">YouTube</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.facebook.com">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.naver.com">Naver Blog</a>
+			<p>
+				상담가능시간<br>
+				am 10:00<br>
+				~<br>
+				pm 17:30
+			</p>
+	</div>
+
+</body>
+</html>
